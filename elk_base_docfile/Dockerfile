@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER chances-lixr
+MAINTAINER onedream
 VOLUME [ "/opt/product/data/" ]
 RUN  /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN /bin/echo -e "ZONE="Asia/Shanghai"\nUTC=false\nRTC=false" > /etc/sysconfig/clock
